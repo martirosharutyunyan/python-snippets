@@ -1,12 +1,12 @@
 {
-    "name": "python-snippets",
-    "displayName": "python-snippets",
-    "description": "python snippets for data sciense and ML(DL)",
-    "version": "1.0.0",
-    "engines": {
-        "vscode": "^1.52.0"
-    },
-    "publisher": "Martiros",
+	"name": "python-snippets",
+	"displayName": "python-snippets",
+	"description": "python snippets for data sciense and ML(DL)",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"publisher": "Martiros",
 	"author": {
 		"name": "Martiros Harutunyan"
 	},
@@ -17,15 +17,20 @@
 		"url": "https://github.com/Martiros888/python-snippets"
 	},
 	"icon": "python-icon.jpg",
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "python",
-                "path": "./snippets/pythonCode.code-snippets"
-            }
-        ]
-    }
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "python",
+				"path": "./snippets/pythonCode.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "f429e235-1e40-438a-9d23-19c415a5481d",
+		"publisherDisplayName": "Martiros",
+		"publisherId": "30d32daa-27d6-45a5-9302-67a12f8658fb"
+	}
 }

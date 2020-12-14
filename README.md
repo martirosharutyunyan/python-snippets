@@ -13,6 +13,13 @@ keywords
 Keywords for easy working
 
 ```
-pr => print()
+pr =>   print()
+
+ln => len($0)
+
+rn => range($0)
+
+for => for i in range($1):
+
 
 ```
