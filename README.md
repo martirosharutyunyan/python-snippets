@@ -14,3 +14,5 @@ Keywords for easy working
 
 ```
 pr => print()
+
+```
