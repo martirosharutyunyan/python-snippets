@@ -1,0 +1,103 @@
+{   "Python-import":{
+        "prefix": "im",
+        "body": [
+            "import $0"
+        ]
+    }, 
+    "Python-print":{
+        "prefix": "pr",
+        "body": [
+            "print($0)"
+        ]
+    },
+    "Python-len":{
+        "prefix": "ln",
+        "body": [
+            "len($0)"
+        ]
+    },
+    "Python-range":{
+        "prefix": "rn",
+        "body": [
+            "range($0)"
+        ]
+    },
+    "Python-for":{
+        "prefix": "for",
+        "body": [
+            "for i in range($1):",
+            "    $0"
+        ]
+    },
+    "Python-import-numba":{
+        "prefix": "imnb",
+        "body": [
+            "from numba import jit, njit, prange"
+        ]
+    },
+    "Python-numba-njit":{
+        "prefix": "njit",
+        "body": [
+            "@njit(fastmath=True,parallel=True,cache=True)"
+        ]
+    },
+    "Python-numba-jit":{
+        "prefix": "jit",
+        "body": [
+            "@jit(nopython=True,cache=True)"
+        ]
+    },      
+    "Python-return":{
+        "prefix": "r",
+        "body": [
+            "return $0"
+        ]
+    },      
+    "Python-True":{
+        "prefix": "t",
+        "body": [
+            "True"
+        ]
+    },      
+    "Python-False":{
+        "prefix": "f",
+        "body": [
+            "False"
+        ]
+    },     
+    "Python-Function":{
+        "prefix": "def",
+        "body": [
+            "def $1($2):",
+            "    $0"
+        ]
+    },   
+    "Python-comments":{
+        "prefix": "k",
+        "body": [
+            "\"\"\"",
+            "$0",
+            "\"\"\""
+        ]
+    },      
+    "Python-__init__":{
+        "prefix": "init",
+        "body": [
+            "__init__"
+        ]
+    },   
+    "Python-class-def":{
+        "prefix": "defc",
+        "body": [
+            "def $1(self,$2):",
+            "    $0"
+        ]
+    },   
+      
+    "Python-help":{
+        "prefix": "help",
+        "body": [
+            "help($0)"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "Python-statsmodels-import":{
+        "prefix": "imstatsmodels",
+        "body": [
+            "import statsmodels.api as sn"
+        ]
+    },    
+    "Python-statsmodels-add_constant":{
+        "prefix": ".add_constant",
+        "body": [
+            ".add_constant($0)"
+        ]
+    },
+    "Python-statsmodels-summary":{
+        "prefix": ".summary",
+        "body": [
+            ".summary()"
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{   
+    "Python-pandas-import":{
+        "prefix": "impandas",
+        "body": [
+            "import pandas as pd"
+        ]
+    },
+    "Python-pandas-read_csv":{
+        "prefix": ".read_csv",
+        "body": [
+            ".read_csv('$0')"
+        ]
+    },
+    "Python-pandas-describe()":{
+        "prefix": ".describe",
+        "body": [
+            ".describe($0)"
+        ]
+    },
+    "Python-pandas-head()":{
+        "prefix": ".head",
+        "body": [
+            ".head($0)"
+        ]
+    },
+    "Python-pandas-info()":{
+        "prefix": ".info",
+        "body": [
+            ".info()"
+        ]
+    },
+    "Python-pandas-get_dummies()":{
+        "prefix": ".get_dummies",
+        "body": [
+            ".get_dummies($0)"
+        ]
+    },
+    "Python-pandas-corr":{
+        "prefix": ".corr",
+        "body": [
+            ".corr($0)"
+        ]
+    }
+}

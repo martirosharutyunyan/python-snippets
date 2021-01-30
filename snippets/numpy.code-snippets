@@ -1,0 +1,236 @@
+{
+    "Python-numpy-import":{
+        "prefix": "imnumpy",
+        "body": [
+            "import numpy as np"
+        ]
+    },
+    "Python-numpy-array":{
+        "prefix": ".array",
+        "body": [
+            ".array([$0])"
+        ]
+    },
+    "Python-numpy-array.shape":{
+        "prefix": ".shape",
+        "body": [
+            ".shape"
+        ]
+    },
+    "Python-numpy-array.ndim":{
+        "prefix": ".ndim",
+        "body": [
+            ".ndim"
+        ]
+    },
+    "Python-numpy-array.dtype":{
+        "prefix": ".dtype",
+        "body": [
+            ".dtype"
+        ]
+    },
+    "Python-numpy-array.size()":{
+        "prefix": ".size",
+        "body": [
+            ".size"
+        ]
+    },
+    "Python-numpy-arange()":{
+        "prefix": ".arange",
+        "body": [
+            ".arange($0)"
+        ]
+    },
+    "Python-numpy-array.reshape()":{
+        "prefix": ".reshape",
+        "body": [
+            ".reshape($0)"
+        ]
+    },
+    "Python-numpy-array.linspace()":{
+        "prefix": ".linspace",
+        "body": [
+            ".linspace($0)"
+        ]
+    },
+    "Python-numpy-array.random()":{
+        "prefix": ".random",
+        "body": [
+            ".random.random($0)"
+        ]
+    },
+    "Python-numpy-array.sqrt()":{
+        "prefix": ".sqrt",
+        "body": [
+            ".sqrt($0)"
+        ]
+    },
+    "Python-numpy-array.sin()":{
+        "prefix": ".sin",
+        "body": [
+            ".sin($0)"
+        ]
+    },
+    "Python-numpy-array.cos()":{
+        "prefix": ".cos",
+        "body": [
+            ".cos($0)"
+        ]
+    },
+    "Python-numpy-array.log()":{
+        "prefix": ".log",
+        "body": [
+            ".log($0)"
+        ]
+    },
+    "Python-numpy-array.exp()":{
+        "prefix": ".exp",
+        "body": [
+            ".exp($0)"
+        ]
+    },
+    "Python-numpy-array.randint()":{
+        "prefix": ".randint",
+        "body": [
+            ".random.randint($0)"
+        ]
+    },
+    "Python-numpy-array.max()":{
+        "prefix": ".max",
+        "body": [
+            ".max()"
+        ]
+    },
+    "Python-numpy-array.min()":{
+        "prefix": ".min",
+        "body": [
+            ".min()"
+        ]
+    },
+    "Python-numpy-array.mean()":{
+        "prefix": ".mean",
+        "body": [
+            ".mean()"
+        ]
+    },
+    "Python-numpy-array.sum()":{
+        "prefix": ".sum",
+        "body": [
+            ".sum()"
+        ]
+    },
+    "Python-numpy-array.std()":{
+        "prefix": ".std",
+        "body": [
+            ".std()"
+        ]
+    },
+    "Python-numpy-median()":{
+        "prefix": ".median",
+        "body": [
+            ".median($0)"
+        ]
+    },
+    "Python-numpy-insert()":{
+        "prefix": ".insert",
+        "body": [
+            ".insert($0)"
+        ]
+    },
+    "Python-numpy-sort()":{
+        "prefix": ".sort",
+        "body": [
+            ".sort($0)"
+        ]
+    },
+    "Python-numpy-delete()":{
+        "prefix": ".delete",
+        "body": [
+            ".delete($0)"
+        ]
+    },
+    "Python-numpy-concatenate()":{
+        "prefix": ".concatenate",
+        "body": [
+            ".concatenate(($0))"
+        ]
+    },
+    "Python-numpy-array_split()":{
+        "prefix": ".array_split",
+        "body": [
+            ".array_split($0)"
+        ]
+    },
+    "Python-numpy-resize()":{
+        "prefix": ".resize",
+        "body": [
+            ".resize($0,())"
+        ]
+    },
+    "Python-numpy-zeros()":{
+        "prefix": ".zeros",
+        "body": [
+            ".zeros(($0))"
+        ]
+    },
+    "Python-numpy-ones()":{
+        "prefix": ".ones",
+        "body": [
+            ".ones(($0))"
+        ]
+    },
+    "Python-numpy-full()":{
+        "prefix": ".full",
+        "body": [
+            ".full(($0),)"
+        ]
+    },
+    "Python-numpy-dot()":{
+        "prefix": ".dot",
+        "body": [
+            ".dot($0)"
+        ]
+    },
+    "Python-numpy-trace()":{
+        "prefix": ".trace",
+        "body": [
+            ".trace($0)"
+        ]
+    },
+    "Python-numpy-linalg.inv()":{
+        "prefix": ".inv",
+        "body": [
+            ".linalg.inv($0)"
+        ]
+    },
+    "Python-numpy-linalg.det()":{
+        "prefix": ".det",
+        "body": [
+            ".linalg.det($0)"
+        ]
+    },
+    "Python-numpy-linalg.eig()":{
+        "prefix": ".eig",
+        "body": [
+            ".linalg.eig($0)"
+        ]
+    },
+    "Python-numpy-percentile":{
+        "prefix": ".percentile",
+        "body": [
+            ".percentile($0)"
+        ]
+    },
+    "Python-lambda":{
+        "prefix": "l",
+        "body": [
+            "lambda $1: $0"
+        ]
+    },
+    "Python-numpy-sigmoid":{
+        "prefix": "sig",
+        "body": [
+            "sig = lambda x: 1/(1+np.exp(-x))"
+        ]
+    }
+}

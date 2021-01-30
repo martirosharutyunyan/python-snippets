@@ -25,6 +25,26 @@
 			{
 				"language": "python",
 				"path": "./snippets/pythonCode.code-snippets"
+			},
+			{
+				"language": "python",
+				"path": "./snippets/numpy.code-snippets"
+			},
+			{
+				"language": "python",
+				"path": "./snippets/pandas.code-snippets"
+			},
+			{
+				"language": "python",
+				"path": "./snippets/seaborn.code-snippets"
+			},
+			{
+				"language": "python",
+				"path": "./snippets/sklearn.code-snippets"
+			},
+			{
+				"language": "python",
+				"path": "./snippets/statsmodels.code-snippets"
 			}
 		]
 	},

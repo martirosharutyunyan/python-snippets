@@ -1,0 +1,20 @@
+{
+    "Python-seaborn-import":{
+        "prefix": "imseaborn",
+        "body": [
+            "import seaborn as sns"
+        ]
+    },   
+    "Python-seaborn-pivot_table":{
+        "prefix": ".pivot_table",
+        "body": [
+            ".pivot_table($0)"
+        ]
+    },
+    "Python-seaborn-joinplot":{
+        "prefix": ".joinplot",
+        "body": [
+            ".joinplot(data=$0,)"
+        ]
+    }
+}

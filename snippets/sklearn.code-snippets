@@ -1,0 +1,32 @@
+{
+    "Python-sklearn-import":{
+        "prefix": "imsklearn",
+        "body": [
+            "from sklearn.linear_model import LinearRegression"
+        ]
+    },
+    "Python-sklearn-fit":{
+        "prefix": ".fit",
+        "body": [
+            ".fit($0)"
+        ]
+    },
+    "Python-sklearn-coef_":{
+        "prefix": ".coef_",
+        "body": [
+            ".coef_"
+        ]
+    },
+    "Python-sklearn-intercept_":{
+        "prefix": ".intercept_",
+        "body": [
+            ".intercept_"
+        ]
+    },
+    "Python-sklearn-predict":{
+        "prefix": ".predict",
+        "body": [
+            ".predict($0)"
+        ]
+    }
+}
