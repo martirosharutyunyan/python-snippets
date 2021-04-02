@@ -2,7 +2,8 @@
     "Python-pandas-import":{
         "prefix": "impandas",
         "body": [
-            "import pandas as pd"
+            "import pandas as pd",
+            "$0"
         ]
     },
     "Python-pandas-read_csv":{
@@ -39,6 +40,18 @@
         "prefix": ".corr",
         "body": [
             ".corr($0)"
+        ]
+    },
+    "Python-pandas-tail":{
+        "prefix": ".tail",
+        "body": [
+            ".tail()"
+        ]
+    },
+    "Python-pandas-values":{
+        "prefix": ".values",
+        "body": [
+            ".values"
         ]
     }
 }

@@ -232,5 +232,23 @@
         "body": [
             "sig = lambda x: 1/(1+np.exp(-x))"
         ]
-    }
+    },
+    "Python-numpy-meshgrid":{
+        "prefix": ".meshgrid",
+        "body": [
+            ".meshgrid($0)"
+        ]
+    },
+    "Python-numpy-unique":{
+        "prefix": ".unique",
+        "body": [
+            ".unique($0)"
+        ]
+    },
+    "Python-numpy-ravel":{
+        "prefix": ".ravel",
+        "body": [
+            ".ravel($0)"
+        ]
+    },
 }

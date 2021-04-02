@@ -2,7 +2,8 @@
     "Python-seaborn-import":{
         "prefix": "imseaborn",
         "body": [
-            "import seaborn as sns"
+            "import seaborn as sns",
+            "$0"
         ]
     },   
     "Python-seaborn-pivot_table":{

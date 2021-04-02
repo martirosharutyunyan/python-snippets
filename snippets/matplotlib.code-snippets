@@ -1,0 +1,33 @@
+{
+    "Python-matplotlib-import":{
+        "prefix": "immatplotlib",
+        "body": [
+            "import matplotlib.pyplot as plt",
+            "$0"
+        ]
+    },
+    "Python-matplotlib-contourf":{
+        "prefix": ".contourf",
+        "body": [
+            ".contourf($0)",
+        ]
+    },
+    "Python-matplotlib-xlabel":{
+        "prefix": ".xlabel",
+        "body": [
+            ".xlabel($0)",
+        ]
+    },
+    "Python-matplotlib-ylabel":{
+        "prefix": ".ylabel",
+        "body": [
+            ".ylabel($0)",
+        ]
+    },
+    "Python-matplotlib-show":{
+        "prefix": ".show",
+        "body": [
+            ".show($0)",
+        ]
+    },
+}

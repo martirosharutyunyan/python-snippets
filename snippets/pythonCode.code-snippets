@@ -1,4 +1,5 @@
-{   "Python-import":{
+{   
+    "Python-import":{
         "prefix": "im",
         "body": [
             "import $0"
@@ -25,7 +26,7 @@
     "Python-for":{
         "prefix": "for",
         "body": [
-            "for i in range($1):",
+            "for $1 in range($2):",
             "    $0"
         ]
     },
@@ -89,15 +90,36 @@
     "Python-class-def":{
         "prefix": "defc",
         "body": [
-            "def $1(self,$2):",
+            "def $1(self, $2):",
             "    $0"
         ]
     },   
-      
+    "Python-class-def__init__":{
+        "prefix": "defc_",
+        "body": [
+            "def __init__(self, $1):",
+            "    $0"
+        ]
+    },   
+    "Python-class-self":{
+        "prefix": "self",
+        "body": [
+            "self.$0 = $0"
+        ]
+    }, 
     "Python-help":{
         "prefix": "help",
         "body": [
             "help($0)"
+        ]
+    },
+    "Python-import-all":{
+        "prefix": "ima",
+        "body": [
+            "import numpy as np",
+            "import pandas as pd",
+            "import seaborn as sns",
+            "$0"
         ]
     }
 }
