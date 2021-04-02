@@ -1,4 +1,5 @@
-{   "Python-import":{
+{   
+    "Python-import":{
         "prefix": "im",
         "body": [
             "import $0"
