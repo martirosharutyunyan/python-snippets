@@ -45,6 +45,10 @@
 			{
 				"language": "python",
 				"path": "./snippets/statsmodels.code-snippets"
+			},
+			{
+				"language": "python",
+				"path": "./snippets/matplotlib.code-snippets"
 			}
 		]
 	},
