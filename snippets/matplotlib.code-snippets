@@ -9,25 +9,25 @@
     "Python-matplotlib-contourf":{
         "prefix": ".contourf",
         "body": [
-            ".contourf($0)",
+            ".contourf($0)"
         ]
     },
     "Python-matplotlib-xlabel":{
         "prefix": ".xlabel",
         "body": [
-            ".xlabel($0)",
+            ".xlabel($0)"
         ]
     },
     "Python-matplotlib-ylabel":{
         "prefix": ".ylabel",
         "body": [
-            ".ylabel($0)",
+            ".ylabel($0)"
         ]
     },
     "Python-matplotlib-show":{
         "prefix": ".show",
         "body": [
-            ".show($0)",
+            ".show($0)"
         ]
     }
 }

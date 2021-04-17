@@ -250,5 +250,23 @@
         "body": [
             ".ravel($0)"
         ]
+    },
+    "Python-numpy-argmax":{
+        "prefix": ".argmax",
+        "body": [
+            ".argmax($0)"
+        ]
+    },
+    "Python-numpy-bincount":{
+        "prefix": ".ravel",
+        "body": [
+            ".ravel($0)"
+        ]
+    },
+    "Python-numpy-average":{
+        "prefix": ".average",
+        "body": [
+            ".average($0)"
+        ]
     }
 }

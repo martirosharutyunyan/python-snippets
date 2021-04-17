@@ -29,5 +29,17 @@
         "body": [
             ".predict($0)"
         ]
-    }
+    },
+    "Python-sklearn-train":{
+        "prefix": "train",
+        "body": [
+            "X_train, X_test, y_train, y_test = train_test_split($0)"
+        ]
+    },
+    "Python-sklearn-import-train-test-split":{
+        "prefix": "train_test",
+        "body": [
+            "from sklearn.model_selection import train_test_split"
+        ]
+    },
 }

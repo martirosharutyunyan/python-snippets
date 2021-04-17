@@ -1,3 +1,4 @@
+
 # python-snippets
 
 Python for Data sciense and ML(DL)
@@ -11,105 +12,24 @@ keywords
 
 **Enjoy!**
 Keywords for easy working
-
 ```
-
-impandas =>  import pandas as pd
-
-
-.read_csv =>  .read_csv('$0')
+        
 
 
-.describe =>  .describe($0)
+immatplotlib =>  import matplotlib.pyplot as plt
+                 $0
 
 
-.head =>  .head($0)
+.contourf =>  .contourf($0)
 
 
-.info =>  .info()
+.xlabel =>  .xlabel($0)
 
 
-.get_dummies =>  .get_dummies($0)
+.ylabel =>  .ylabel($0)
 
 
-.corr =>  .corr($0)
-
-
-im =>  import $0
-
-
-pr =>  print($0)
-
-
-ln =>  len($0)
-
-
-rn =>  range($0)
-
-
-for =>  for i in range($1):
-            $0
-
-
-imnb =>  from numba import jit, njit, prange
-
-
-njit =>  @njit(fastmath=True,parallel=True,cache=True)
-
-
-jit =>  @jit(nopython=True,cache=True)
-
-
-r =>  return $0
-
-
-t =>  True
-
-
-f =>  False
-
-
-def =>  def $1($2):
-            $0
-
-
-k =>  """
-      $0
-      """
-
-
-init =>  __init__
-
-
-defc =>  def $1(self,$2):
-             $0
-
-
-help =>  help($0)
-
-
-imseaborn =>  import seaborn as sns
-
-
-.pivot_table =>  .pivot_table($0)
-
-
-.joinplot =>  .joinplot(data=$0,)
-
-
-imsklearn =>  from sklearn.linear_model import LinearRegression
-
-
-.fit =>  .fit($0)
-
-
-.coef_ =>  .coef_
-
-
-.intercept_ =>  .intercept_
-
-
-.predict =>  .predict($0)
+.show =>  .show($0)
 
 
 imnumpy =>  import numpy as np
@@ -229,6 +149,150 @@ l =>  lambda $1: $0
 sig =>  sig = lambda x: 1/(1+np.exp(-x))
 
 
+.meshgrid =>  .meshgrid($0)
+
+
+.unique =>  .unique($0)
+
+
+.ravel =>  .ravel($0)
+
+
+.argmax =>  .argmax($0)
+
+
+.ravel =>  .ravel($0)
+
+
+.average =>  .average($0)
+
+
+impandas =>  import pandas as pd
+             $0
+
+
+.read_csv =>  .read_csv('$0')
+
+
+.describe =>  .describe($0)
+
+
+.head =>  .head($0)
+
+
+.info =>  .info()
+
+
+.get_dummies =>  .get_dummies($0)
+
+
+.corr =>  .corr($0)
+
+
+.tail =>  .tail()
+
+
+.values =>  .values
+
+
+im =>  import $0
+
+
+pr =>  print($0)
+
+
+ln =>  len($0)
+
+
+rn =>  range($0)
+
+
+for =>  for $1 in range($2):
+            $0
+
+
+imnb =>  from numba import jit, njit, prange
+
+
+njit =>  @njit(fastmath=True,parallel=True,cache=True)
+
+
+jit =>  @jit(nopython=True,cache=True)
+
+
+r =>  return $0
+
+
+t =>  True
+
+
+f =>  False
+
+
+def =>  def $1($2):
+            $0
+
+
+k =>  """
+      $0
+      """
+
+
+init =>  __init__
+
+
+defc =>  def $1(self, $2):
+             $0
+
+
+defc_ =>  def __init__(self, $1):
+              $0
+
+
+self =>  self.$0 = $0
+
+
+help =>  help($0)
+
+
+ima =>  import numpy as np
+        import pandas as pd
+        import seaborn as sns
+        $0
+
+
+imseaborn =>  import seaborn as sns
+              $0
+
+
+.pivot_table =>  .pivot_table($0)
+
+
+.joinplot =>  .joinplot(data=$0,)
+
+
+imsklearn =>  from sklearn.linear_model import LinearRegression
+              $0
+
+
+.fit =>  .fit($0)
+
+
+.coef_ =>  .coef_
+
+
+.intercept_ =>  .intercept_
+
+
+.predict =>  .predict($0)
+
+
+train =>  X_train, X_test, y_train, y_test = train_test_split($0)
+
+
+train_test =>  from sklearn.model_selection import train_test_split
+
+
 imstatsmodels =>  import statsmodels.api as sn
 
 
@@ -236,6 +300,5 @@ imstatsmodels =>  import statsmodels.api as sn
 
 
 .summary =>  .summary()
-
-
+'
 ```
