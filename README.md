@@ -300,5 +300,5 @@ imstatsmodels =>  import statsmodels.api as sn
 
 
 .summary =>  .summary()
-'
+
 ```
