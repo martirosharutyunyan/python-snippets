@@ -1,20 +1,20 @@
 {
 	"name": "python-snippets",
 	"displayName": "python-snippets",
-	"description": "python snippets for data sciense and ML(DL)",
+	"description": "python snippets for data science and ML(DL)",
 	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.52.0"
 	},
 	"publisher": "Martiros",
 	"author": {
-		"name": "Martiros Harutunyan"
+		"name": "Martiros Harutyunyan"
 	},
 	"license": "GPLv3",
-	"homepage": "https://github.com/Martiros888/python-snippets",
+	"homepage": "https://github.com/martirosharutyunyan/python-snippets",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Martiros888/python-snippets"
+		"url": "https://github.com/martirosharutyunyan/python-snippets"
 	},
 	"icon": "python-icon.jpg",
 	"categories": [
